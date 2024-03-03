@@ -6,17 +6,17 @@ const CreateEntry = ({ setAllTasks }) => {
     const [description, setDescription] = useState('')
     const [status, setStatus] = useState('')
 
-    const updateState=(e)=>{
+    const updateState = (e) => {
         e.preventDefault();
-        if(title && description && status){
-            setAllTasks((task)=>{
+        if (title && description && status) {
+            setAllTasks((task) => {
                 return [...task, {
                     "id": Date.now(),
                     "title": title,
                     "description": description,
                     "priority": "medium",
                     "status": status
-                  }]
+                }]
             })
             setTitle('');
             setDescription('');
@@ -35,7 +35,7 @@ const CreateEntry = ({ setAllTasks }) => {
                     setDescription(e.target.value)
                 }}
             ></input>
-            <select onChange={(e)=>{
+            <select onChange={(e) => {
                 setStatus(e.target.value)
             }}>
                 <option value="todo">Todo</option>

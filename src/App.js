@@ -10,16 +10,16 @@ import { useEffect, useState } from 'react';
 function App() {
   const [allTasks, setAllTasks] = useState([])
 
-    useEffect(() => {
-        setAllTasks(taskList?.tasks)
+  useEffect(() => {
+    setAllTasks(taskList?.tasks)
 
-    }, [])
+  }, [])
 
   return (
     <div className="App">
       <main className='taskView'>
-        <CreateEntry setAllTasks={setAllTasks}/>
-        <Tasks allTasks={allTasks}/>
+        <CreateEntry setAllTasks={setAllTasks} />
+        <Tasks allTasks={allTasks} />
       </main>
     </div>
   );
