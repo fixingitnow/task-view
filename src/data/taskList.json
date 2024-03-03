@@ -1,0 +1,40 @@
+{
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Design the user interface",
+        "description": "Create wireframes for the new user interface.",
+        "priority": "high",
+        "status": "todo"
+      },
+      {
+        "id": 2,
+        "title": "Implement login functionality",
+        "description": "Develop the login feature allowing users to authenticate.",
+        "priority": "medium",
+        "status": "in progress"
+      },
+      {
+        "id": 3,
+        "title": "Setup the database",
+        "description": "Install and configure the database for the application.",
+        "priority": "high",
+        "status": "in progress"
+      },
+      {
+        "id": 4,
+        "title": "Conduct user testing",
+        "description": "Gather a group of users to test the new features.",
+        "priority": "low",
+        "status": "todo"
+      },
+      {
+        "id": 5,
+        "title": "Fix login bug",
+        "description": "Resolve the issue where users cannot log in under certain conditions.",
+        "priority": "high",
+        "status": "completed"
+      }
+    ]
+  }
+  
